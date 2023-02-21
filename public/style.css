@@ -1,0 +1,48 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:black;
+    font-size: large;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:#46529c;
+    cursor: pointer;
+    color: white;
+    height: 6vh;
+  }
+  .todo-item{
+    background-color: #46529c;
+  }
+  body{
+    
+    background-image: url(./to\ do.png) ;
+    background-size: cover;
+  }
+  #del{
+    color: white;
+    background-color: red;
+  }
+  #list{background-color:#8b9efd
+    ;
+  width: 40vw;
+justify-content: center;
+font-size: larger;
+border: 2px solid white;
+margin-left: 25%;
+}
+.heading{
+  color: white;
+}
